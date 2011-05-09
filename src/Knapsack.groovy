@@ -13,9 +13,9 @@ def res = []
 
 0.upto(v) {
     it = it.toString().center(2)
-    println "$it "
+    print "$it "
 }
-println '***'
+println ''
 
 objs.each { obj ->
     v.downto(0) { currentV ->
